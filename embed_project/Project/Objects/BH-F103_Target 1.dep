@@ -1,0 +1,1663 @@
+Dependencies for Project 'BH-F103', Target 'Target 1': (DO NOT MODIFY !)
+F (..\Libraries\CMSIS\startup\startup_stm32f10x_hd.s)(0x65B21A14)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 521" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+F (..\Libraries\CMSIS\core_cm3.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+F (..\Libraries\CMSIS\system_stm32f10x.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\misc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_adc.o --omf_browse .\objects\stm32f10x_adc.crf --depend .\objects\stm32f10x_adc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_bkp.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_bkp.o --omf_browse .\objects\stm32f10x_bkp.crf --depend .\objects\stm32f10x_bkp.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_can.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_can.o --omf_browse .\objects\stm32f10x_can.crf --depend .\objects\stm32f10x_can.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_cec.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_cec.o --omf_browse .\objects\stm32f10x_cec.crf --depend .\objects\stm32f10x_cec.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_crc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_crc.o --omf_browse .\objects\stm32f10x_crc.crf --depend .\objects\stm32f10x_crc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_dac.o --omf_browse .\objects\stm32f10x_dac.crf --depend .\objects\stm32f10x_dac.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dbgmcu.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_dbgmcu.o --omf_browse .\objects\stm32f10x_dbgmcu.crf --depend .\objects\stm32f10x_dbgmcu.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_dma.o --omf_browse .\objects\stm32f10x_dma.crf --depend .\objects\stm32f10x_dma.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_exti.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_exti.o --omf_browse .\objects\stm32f10x_exti.crf --depend .\objects\stm32f10x_exti.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_flash.o --omf_browse .\objects\stm32f10x_flash.crf --depend .\objects\stm32f10x_flash.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_fsmc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_fsmc.o --omf_browse .\objects\stm32f10x_fsmc.crf --depend .\objects\stm32f10x_fsmc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_gpio.o --omf_browse .\objects\stm32f10x_gpio.crf --depend .\objects\stm32f10x_gpio.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_i2c.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_i2c.o --omf_browse .\objects\stm32f10x_i2c.crf --depend .\objects\stm32f10x_i2c.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_iwdg.o --omf_browse .\objects\stm32f10x_iwdg.crf --depend .\objects\stm32f10x_iwdg.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_pwr.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_pwr.o --omf_browse .\objects\stm32f10x_pwr.crf --depend .\objects\stm32f10x_pwr.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_rcc.o --omf_browse .\objects\stm32f10x_rcc.crf --depend .\objects\stm32f10x_rcc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_rtc.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_rtc.o --omf_browse .\objects\stm32f10x_rtc.crf --depend .\objects\stm32f10x_rtc.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_sdio.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_sdio.o --omf_browse .\objects\stm32f10x_sdio.crf --depend .\objects\stm32f10x_sdio.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_spi.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_spi.o --omf_browse .\objects\stm32f10x_spi.crf --depend .\objects\stm32f10x_spi.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_tim.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_tim.o --omf_browse .\objects\stm32f10x_tim.crf --depend .\objects\stm32f10x_tim.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_usart.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_usart.o --omf_browse .\objects\stm32f10x_usart.crf --depend .\objects\stm32f10x_usart.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\STM32F10x_StdPeriph_Driver\src\stm32f10x_wwdg.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_wwdg.o --omf_browse .\objects\stm32f10x_wwdg.crf --depend .\objects\stm32f10x_wwdg.d)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\User\main.c)(0x65B63CEF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\queue.h)(0x64020E50)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\third_lib\STemWin_Task\MainTask.h)(0x6590D508)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DIALOG.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_GUI.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\BUTTON.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DIALOG_Intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WIDGET.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_Intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Private.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD_Protected.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Debug.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SCROLLBAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CALENDAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHECKBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHOOSECOLOR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHOOSEFILE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DROPDOWN.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\EDIT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\FRAMEWIN.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GRAPH.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\HEADER.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\ICONVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\IMAGE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTWHEEL.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MENU.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MULTIEDIT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MULTIPAGE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\PROGBAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\RADIO.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SLIDER.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SPINBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SWIPELIST.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TEXT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TREEVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\KNOB.h)(0x5D1623CA)
+I (..\third_lib\STemWin_Task\motor_sg90.h)(0x65A391B4)
+I (..\Libraries\pwm\PWM.h)(0x65A391D6)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (..\Libraries\lcd\bsp_ili9341_lcd.h)(0x61CE6CC7)
+I (..\Libraries\lcd\bsp_xpt2046_lcd.h)(0x65B5A7A3)
+I (..\Libraries\flash\bsp_spi_flash.h)(0x65B21EFD)
+I (..\Libraries\sram\bsp_fsmc_sram.h)(0x6590C0EC)
+I (..\User\Touch_Task.h)(0x65B0A8E5)
+I (..\User\WIDGET_ButtonSimple.h)(0x65B44A17)
+I (..\Libraries\led\bsp_led.h)(0x61CE6D76)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\User\FatFs_test.h)(0x65B21601)
+I (..\Libraries\FATFS\ff.h)(0x61CE6D76)
+I (..\Libraries\FATFS\integer.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ffconf.h)(0x61CE6D76)
+I (..\Libraries\key\bsp_key.h)(0x65B4D6A7)
+I (..\User\test.h)(0x65B5CC14)
+I (..\Libraries\MFRC\bsp_MFRC.h)(0x65B6156E)
+I (..\Libraries\MFRC\RC522.h)(0x65B5D7CF)
+F (..\User\stm32f10x_it.c)(0x64BA5520)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\stm32f10x_it.o --omf_browse .\objects\stm32f10x_it.crf --depend .\objects\stm32f10x_it.d)
+I (..\User\stm32f10x_it.h)(0x64BA5520)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\third_lib\STemWin_Task\MainTask.c)(0x65B0A5D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\maintask.o --omf_browse .\objects\maintask.crf --depend .\objects\maintask.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DIALOG.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_GUI.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\BUTTON.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DIALOG_Intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WIDGET.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_Intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Private.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD_Protected.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Debug.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SCROLLBAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CALENDAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHECKBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHOOSECOLOR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\CHOOSEFILE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DROPDOWN.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\EDIT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\FRAMEWIN.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GRAPH.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\HEADER.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\ICONVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\IMAGE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LISTWHEEL.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MENU.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MULTIEDIT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\MULTIPAGE.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\PROGBAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\RADIO.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SLIDER.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SPINBOX.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SWIPELIST.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TEXT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TREEVIEW.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\KNOB.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\Libraries\lcd\bsp_xpt2046_lcd.h)(0x65B5A7A3)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\User\Touch_Task.c)(0x65B0A85E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\touch_task.o --omf_browse .\objects\touch_task.crf --depend .\objects\touch_task.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\User\WIDGET_ButtonSimple.c)(0x65B44DD8)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\widget_buttonsimple.o --omf_browse .\objects\widget_buttonsimple.crf --depend .\objects\widget_buttonsimple.d)
+I (..\User\WIDGET_ButtonSimple.h)(0x65B44A17)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_GUI.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\DIALOG_intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\FRAMEWIN.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WIDGET.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\WM_Intern.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Private.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD_Protected.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Debug.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\SCROLLBAR.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\BUTTON.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TEXT.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\TREEVIEW.h)(0x5D1623CA)
+I (..\Libraries\led\bsp_led.h)(0x61CE6D76)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\User\FatFs_test.c)(0x65B21A88)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\fatfs_test.o --omf_browse .\objects\fatfs_test.crf --depend .\objects\fatfs_test.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\Libraries\FATFS\ff.h)(0x61CE6D76)
+I (..\Libraries\FATFS\integer.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ffconf.h)(0x61CE6D76)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\User\test.c)(0x65B665D9)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\test.o --omf_browse .\objects\test.crf --depend .\objects\test.d)
+I (..\User\test.h)(0x65B5CC14)
+I (..\Libraries\MFRC\bsp_MFRC.h)(0x65B6156E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\MFRC\RC522.h)(0x65B5D7CF)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\Doc\readme.txt)(0x64BA5520)()
+F (..\third_lib\freertos\event_groups.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\event_groups.o --omf_browse .\objects\event_groups.crf --depend .\objects\event_groups.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\timers.h)(0x64020E50)
+I (..\third_lib\freertos\include\event_groups.h)(0x64020E50)
+F (..\third_lib\freertos\heap_4.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\heap_4.o --omf_browse .\objects\heap_4.crf --depend .\objects\heap_4.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\third_lib\freertos\list.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\list.o --omf_browse .\objects\list.crf --depend .\objects\list.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\third_lib\freertos\queue.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\queue.o --omf_browse .\objects\queue.crf --depend .\objects\queue.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\queue.h)(0x64020E50)
+F (..\third_lib\freertos\tasks.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\tasks.o --omf_browse .\objects\tasks.crf --depend .\objects\tasks.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\timers.h)(0x64020E50)
+I (..\third_lib\freertos\include\stack_macros.h)(0x64020E50)
+F (..\third_lib\freertos\timers.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\timers.o --omf_browse .\objects\timers.crf --depend .\objects\timers.d)
+I (C:\MDK5.36\ARM\ARMCC\include\stdlib.h)(0x574E3E26)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\queue.h)(0x64020E50)
+I (..\third_lib\freertos\include\timers.h)(0x64020E50)
+F (..\third_lib\freertos\portable\port.c)(0x64020E50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\port.o --omf_browse .\objects\port.crf --depend .\objects\port.d)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+F (..\third_lib\STemWin\Config\GUI_X_Touch_Analog.c)(0x65AA15DF)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\gui_x_touch_analog.o --omf_browse .\objects\gui_x_touch_analog.crf --depend .\objects\gui_x_touch_analog.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\Libraries\lcd\bsp_xpt2046_lcd.h)(0x65B5A7A3)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\third_lib\STemWin\Config\GUIConf.c)(0x6590E546)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\guiconf.o --omf_browse .\objects\guiconf.crf --depend .\objects\guiconf.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\Libraries\sram\bsp_fsmc_sram.h)(0x6590C0EC)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\third_lib\STemWin\Config\LCDConf_FlexColor_Template.c)(0x65B10261)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\lcdconf_flexcolor_template.o --omf_browse .\objects\lcdconf_flexcolor_template.crf --depend .\objects\lcdconf_flexcolor_template.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUIDRV_FlexColor.h)(0x5D1623CA)
+I (..\Libraries\lcd\bsp_ili9341_lcd.h)(0x61CE6CC7)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\third_lib\STemWin\OS\GUI_X_FreeRTOS.c)(0x6590B962)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\gui_x_freertos.o --omf_browse .\objects\gui_x_freertos.crf --depend .\objects\gui_x_freertos.d)
+I (..\third_lib\STemWin\inc\GUI.h)(0x5D1623CA)
+I (C:\MDK5.36\ARM\ARMCC\include\stddef.h)(0x574E3E26)
+I (..\third_lib\STemWin\inc\GUI_ConfDefaults.h)(0x5D1623CA)
+I (..\third_lib\STemWin\Config\GUIConf.h)(0x61CE6D76)
+I (..\third_lib\STemWin\inc\GUI_Type.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\LCD.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\Global.h)(0x5D1623CA)
+I (..\third_lib\STemWin\inc\GUI_Version.h)(0x5D1623CA)
+I (..\third_lib\freertos\include\FreeRTOS.h)(0x6590BAF9)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\User\FreeRTOSConfig.h)(0x6590BB7A)
+I (..\third_lib\freertos\include\projdefs.h)(0x64020E50)
+I (..\third_lib\freertos\include\portable.h)(0x64020E50)
+I (..\third_lib\freertos\include\deprecated_definitions.h)(0x64020E50)
+I (..\third_lib\freertos\portable\portmacro.h)(0x64020E50)
+I (..\third_lib\freertos\include\mpu_wrappers.h)(0x64020E50)
+I (..\third_lib\freertos\include\task.h)(0x65B0AD01)
+I (..\third_lib\freertos\include\list.h)(0x64020E50)
+I (..\third_lib\freertos\include\queue.h)(0x64020E50)
+I (..\third_lib\freertos\include\semphr.h)(0x64020E50)
+F (..\third_lib\STemWin\Lib\STemWin_CM3_OS_wc16_ARGB.a)(0x61CE6CC7)()
+F (..\Libraries\flash\bsp_spi_flash.c)(0x65B20B45)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_spi_flash.o --omf_browse .\objects\bsp_spi_flash.crf --depend .\objects\bsp_spi_flash.d)
+I (..\Libraries\flash\bsp_spi_flash.h)(0x65B21EFD)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Libraries\sram\bsp_fsmc_sram.c)(0x6590C1AA)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_fsmc_sram.o --omf_browse .\objects\bsp_fsmc_sram.crf --depend .\objects\bsp_fsmc_sram.d)
+I (..\Libraries\sram\bsp_fsmc_sram.h)(0x6590C0EC)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Libraries\usart\bsp_usart.c)(0x61CE6CC7)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_usart.o --omf_browse .\objects\bsp_usart.crf --depend .\objects\bsp_usart.d)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Libraries\lcd\bsp_ili9341_lcd.c)(0x6590BF2E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_ili9341_lcd.o --omf_browse .\objects\bsp_ili9341_lcd.crf --depend .\objects\bsp_ili9341_lcd.d)
+I (..\Libraries\lcd\bsp_ili9341_lcd.h)(0x61CE6CC7)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\lcd\bsp_xpt2046_lcd.c)(0x6590BEDD)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_xpt2046_lcd.o --omf_browse .\objects\bsp_xpt2046_lcd.crf --depend .\objects\bsp_xpt2046_lcd.d)
+I (..\Libraries\lcd\bsp_xpt2046_lcd.h)(0x65B5A7A3)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\lcd\bsp_ili9341_lcd.h)(0x61CE6CC7)
+I (..\Libraries\flash\bsp_spi_flash.h)(0x65B21EFD)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+I (C:\MDK5.36\ARM\ARMCC\include\string.h)(0x574E3E26)
+F (..\Libraries\pwm\PWM.c)(0x65A3A908)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\pwm.o --omf_browse .\objects\pwm.crf --depend .\objects\pwm.d)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\led\bsp_led.c)(0x61CE6D76)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_led.o --omf_browse .\objects\bsp_led.crf --depend .\objects\bsp_led.d)
+I (..\Libraries\led\bsp_led.h)(0x61CE6D76)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\sdio\bsp_sdio_sdcard.c)(0x65B2092B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_sdio_sdcard.o --omf_browse .\objects\bsp_sdio_sdcard.crf --depend .\objects\bsp_sdio_sdcard.d)
+I (..\Libraries\sdio\bsp_sdio_sdcard.h)(0x61CE6D76)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\usart\bsp_usart.h)(0x61CE6CC7)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Libraries\key\bsp_key.c)(0x65B4D69E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_key.o --omf_browse .\objects\bsp_key.crf --depend .\objects\bsp_key.d)
+I (..\Libraries\key\bsp_key.h)(0x65B4D6A7)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+F (..\Libraries\MFRC\bsp_MFRC.c)(0x65B6FEC0)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\bsp_mfrc.o --omf_browse .\objects\bsp_mfrc.crf --depend .\objects\bsp_mfrc.d)
+I (..\Libraries\MFRC\bsp_MFRC.h)(0x65B6156E)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (..\Libraries\MFRC\RC522.h)(0x65B5D7CF)
+F (..\Libraries\FATFS\diskio.c)(0x65B21CA1)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\diskio.o --omf_browse .\objects\diskio.crf --depend .\objects\diskio.d)
+I (..\Libraries\FATFS\diskio.h)(0x61CE6D76)
+I (..\Libraries\FATFS\integer.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ff.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ffconf.h)(0x61CE6D76)
+I (..\Libraries\flash\bsp_spi_flash.h)(0x65B21EFD)
+I (..\Libraries\CMSIS\stm32f10x.h)(0x64BA5520)
+I (..\Libraries\CMSIS\core_cm3.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdint.h)(0x574E3E26)
+I (..\Libraries\CMSIS\system_stm32f10x.h)(0x64BA5520)
+I (..\User\stm32f10x_conf.h)(0x6590C22A)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h)(0x64BA5520)
+I (..\Libraries\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x64BA5520)
+I (C:\MDK5.36\ARM\ARMCC\include\stdio.h)(0x574E3E26)
+F (..\Libraries\FATFS\ff.c)(0x65B20966)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\ff.o --omf_browse .\objects\ff.crf --depend .\objects\ff.d)
+I (..\Libraries\FATFS\ff.h)(0x61CE6D76)
+I (..\Libraries\FATFS\integer.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ffconf.h)(0x61CE6D76)
+I (..\Libraries\FATFS\diskio.h)(0x61CE6D76)
+I (C:\MDK5.36\ARM\ARMCC\include\stdarg.h)(0x574E3E26)
+F (..\Libraries\FATFS\option\cc936.c)(0x65B20875)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\Libraries\CMSIS -I ..\Libraries\STM32F10x_StdPeriph_Driver\inc -I ..\User -I ..\Libraries\lcd -I ..\third_lib\STemWin\inc -I ..\third_lib\STemWin\Config -I ..\third_lib\freertos\include -I ..\third_lib\freertos\portable -I ..\Libraries\flash -I ..\Libraries\usart -I ..\Libraries\sram -I ..\third_lib\STemWin_Task -I ..\Libraries\pwm -I ..\Libraries\led -I ..\Libraries\FATFS -I ..\Libraries\sdio -I ..\Libraries\key -I ..\Libraries\MFRC-IC:\Users\10746\Desktop\embedded\my_PROJ\key_in_fatfs_MFRC\Fwlib-Template\Project\RTE-IC:\MDK5.36\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include-IC:\MDK5.36\ARM\CMSIS\Include-D__UVISION_VERSION="521" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD -DOS_SUPPORT-o .\objects\cc936.o --omf_browse .\objects\cc936.crf --depend .\objects\cc936.d)
+I (..\Libraries\FATFS\ff.h)(0x61CE6D76)
+I (..\Libraries\FATFS\integer.h)(0x61CE6D76)
+I (..\Libraries\FATFS\ffconf.h)(0x61CE6D76)

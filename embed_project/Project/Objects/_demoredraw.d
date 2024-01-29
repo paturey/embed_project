@@ -1,0 +1,12 @@
+.\objects\_demoredraw.o: ..\User\_DemoRedraw.c
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\GUI.h
+.\objects\_demoredraw.o: C:\MDK5.36\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\GUI_ConfDefaults.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\Config\GUIConf.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\GUI_Type.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\LCD.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\Global.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\GUI_Version.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\WM.h
+.\objects\_demoredraw.o: ..\third_lib\STemWin\inc\WM_GUI.h
+.\objects\_demoredraw.o: ..\User\_DemoRedraw.h
